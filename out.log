@@ -1,0 +1,35 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.3.RELEASE)
+
+2019-09-19 20:01:38.399  INFO 40783 --- [           main] jenkins.JenkinsApplication               : Starting JenkinsApplication v1.0-SNAPSHOT on localhost.localdomain with PID 40783 (/usr/local/project_jar/myjenkins-1.0-SNAPSHOT.jar started by root in /usr/local/project_jar)
+2019-09-19 20:01:38.519  INFO 40783 --- [           main] jenkins.JenkinsApplication               : No active profile set, falling back to default profiles: default
+2019-09-19 20:01:38.627  INFO 40783 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@449b2d27: startup date [Thu Sep 19 20:01:38 CST 2019]; root of context hierarchy
+2019-09-19 20:01:41.420  INFO 40783 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
+2019-09-19 20:01:41.530  INFO 40783 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-09-19 20:01:41.531  INFO 40783 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2019-09-19 20:01:41.560  INFO 40783 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2019-09-19 20:01:41.717  INFO 40783 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-09-19 20:01:41.717  INFO 40783 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3092 ms
+2019-09-19 20:01:41.925  INFO 40783 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2019-09-19 20:01:41.928  INFO 40783 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-09-19 20:01:41.928  INFO 40783 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-09-19 20:01:41.928  INFO 40783 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-09-19 20:01:41.928  INFO 40783 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-09-19 20:01:42.163  INFO 40783 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-19 20:01:42.643  INFO 40783 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@449b2d27: startup date [Thu Sep 19 20:01:38 CST 2019]; root of context hierarchy
+2019-09-19 20:01:42.794  INFO 40783 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/jenkins/index]}" onto public java.lang.String jenkins.controller.IndexController.index()
+2019-09-19 20:01:42.797  INFO 40783 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-09-19 20:01:42.797  INFO 40783 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-09-19 20:01:42.837  INFO 40783 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-19 20:01:42.837  INFO 40783 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-09-19 20:01:43.173  INFO 40783 --- [           main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@449b2d27: startup date [Thu Sep 19 20:01:38 CST 2019]; root of context hierarchy] and template loader path [classpath:/templates/]
+2019-09-19 20:01:43.174  INFO 40783 --- [           main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-09-19 20:01:43.414  INFO 40783 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-09-19 20:01:43.684  INFO 40783 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
+2019-09-19 20:01:43.699  INFO 40783 --- [           main] jenkins.JenkinsApplication               : Started JenkinsApplication in 6.239 seconds (JVM running for 7.064)
